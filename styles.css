@@ -113,7 +113,7 @@ body {
   color: var(--white);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
   .main-container {
     height: 100svh;
     flex-direction: column-reverse;
