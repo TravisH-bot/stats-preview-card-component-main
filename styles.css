@@ -90,7 +90,7 @@ body {
 }
 
 .img-overlay {
-  filter: contrast(200%);
+  filter: contrast(150%);
   border-radius: 0 0.5em 0.5em 0;
   background-color: var(--soft-violet-accent);
   z-index: 1;
@@ -105,4 +105,72 @@ body {
   height: 30em;
   z-index: 0;
   opacity: 0.5;
+}
+
+.attribution {
+  text-align: center;
+  margin: -6em 0 6em 0;
+  color: var(--white);
+}
+
+@media screen and (max-width: 400px) {
+  .main-container {
+    height: 100svh;
+    flex-direction: column-reverse;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .info-card {
+    width: 21.5em;
+    height: 33em;
+    align-items: center;
+    background-size: cover;
+    border-radius: 0 0 0.5em 0.5em;
+  }
+
+  .card-title {
+    font-size: 2em;
+    margin: -1.2em 1.5em 0.5em 1.5em;
+    width: 10em;
+  }
+
+  .card-message {
+    margin: 0 0.5em 0.7em 0.5em;
+    width: 17em;
+  }
+
+  .img-overlay {
+    width: 21.5em;
+    border-radius: 0.5em 0.5em 0 0;
+  }
+
+  .img-card {
+    width: 21.5em;
+    height: 15em;
+    border-radius: 0.5em 0.5em 0 0;
+  }
+
+  .card-stats {
+    flex-direction: column;
+    margin: 1em 0 1em 0;
+  }
+
+  .stat-wrap {
+    margin: 0.8em 0 0.8em 0;
+  }
+
+  .stats {
+    font-size: 1.3em;
+  }
+
+  .sub-stat {
+    font-size: 0.7em;
+  }
+
+  .attribution {
+    text-align: center;
+    margin-top: 3em;
+    font-size: 0.9em;
+  }
 }
