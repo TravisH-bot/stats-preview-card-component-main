@@ -118,7 +118,6 @@ body {
     height: 100svh;
     flex-direction: column-reverse;
     text-align: center;
-    flex-wrap: wrap;
   }
 
   .info-card {
@@ -172,5 +171,13 @@ body {
     text-align: center;
     margin-top: 3em;
     font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .main-container {
+    height: 100svh;
+    flex-direction: column-reverse;
+    text-align: center;
   }
 }
